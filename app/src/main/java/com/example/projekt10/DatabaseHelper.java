@@ -109,7 +109,7 @@ public class DatabaseHelper extends SQLiteOpenHelper
         return data;
     }
 
-    //Pobranie losowego wiersza
+    //Pobranie wiersza
     public Cursor getRow(int id)
     {
         SQLiteDatabase db = this.getWritableDatabase();
